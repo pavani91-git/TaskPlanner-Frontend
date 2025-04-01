@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles/TaskPlanner.css"; // Ensure CSS file exists
+import "../styles/Taskplanner.css"; // Ensure CSS file exists
 
 const TaskPlanner = () => {
   const [tasks, setTasks] = useState("");
